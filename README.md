@@ -121,6 +121,12 @@ CREATE TABLE accounts (
 7. Run `BankingApp.java`
 
 ---
+## To ru  the code
+cd src
+javac -cp ".;../lib/mysql-connector-j-9.6.0.jar" *.java
+java -cp ".;../lib/mysql-connector-j-9.6.0.jar" BankingApp
+
+--
 
 ## 🚀 Sample Output
 Enter choice: 1
@@ -129,7 +135,6 @@ Enter password: 1234
 Account Created Successfully
 
 ---
-
 ## ✅ Advantages
 - Secure database interaction using PreparedStatement
 - Transaction management for money transfer
